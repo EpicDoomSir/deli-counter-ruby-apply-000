@@ -20,4 +20,7 @@ def take_a_number(deli, new_customer)
 end
 
 def now_serving(deli)
+  if deli.count == 0
+    puts "There is nobody waiting to be served!"
+  end
 end
