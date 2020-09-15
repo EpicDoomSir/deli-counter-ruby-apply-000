@@ -7,7 +7,7 @@ def line(deli)
     counter = 1
     message = "The line is currently: "
     deli.each do |customer| 
-      message += "#{counter}. #{customer}"
+      message += "#{counter}. #{customer} "
       counter += 1
     end
     puts message
