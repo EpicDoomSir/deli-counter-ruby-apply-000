@@ -15,5 +15,5 @@ def line(deli)
 end
 
 def take_a_number(deli, new_customer)
-  
+  deli << new_customer
 end
