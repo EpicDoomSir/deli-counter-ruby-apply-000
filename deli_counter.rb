@@ -13,3 +13,7 @@ def line(deli)
     puts message.chop
   end
 end
+
+def take_a_number(deli)
+  
+end
