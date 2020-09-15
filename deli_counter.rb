@@ -16,4 +16,5 @@ end
 
 def take_a_number(deli, new_customer)
   deli << new_customer
+  puts "Welcome, #{new_customer}. You are number  inline."
 end
