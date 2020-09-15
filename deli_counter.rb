@@ -10,6 +10,6 @@ def line(deli)
       message += "#{counter}. #{customer} "
       counter += 1
     end
-    puts message
+    puts message.chomp
   end
 end
